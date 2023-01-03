@@ -1,4 +1,4 @@
-# Notas Fiscais                                                                                                                  
+# Notas Fiscais               
 
 ![Captura de tela de 2023-01-03 17-21-39](https://user-images.githubusercontent.com/23152592/210440394-ca4d8c3f-32dd-45a1-ac50-553bff1990bd.png)
 
@@ -48,7 +48,7 @@ npm install
 
 * Para rodar o back-end:
 
-> Configure as variaveis de ambiente e rode a sql do banco de dados que esta no arquivo ---> server/database.sql
+  > Configure as variaveis de ambiente e rode a sql do banco de dados que esta no arquivo ---> server/database.sql
 
   ```
     cd server
