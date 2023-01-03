@@ -48,7 +48,9 @@ npm install
 * Para rodar o back-end:
 
   ```
-  cd server/ && npm run dev
+  cd server
+  npm run db:reset
+  npm run dev
   ```
 * Para rodar o front-end:
 
