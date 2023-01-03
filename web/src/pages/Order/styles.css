@@ -1,0 +1,81 @@
+.container {
+  box-shadow: 0 10px 30px rgba(225, 229, 236, 0.5);
+  border-radius: 15px 0 0 15px;
+  width: 100%;
+}
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dfe2eb;
+  height: 64px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-inline: 2.5rem;
+  width: 100%;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.title h2 {
+  color: #021b51;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main span {
+  color: #727d94;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.loading, .error {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.table thead {
+  width: 100%;
+}
+
+.table thead .thead-tr {
+  color: #a1a8b8;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.thead-tr th {
+  padding-inline: 2rem;
+  width: 20%;
+  text-align: center;
+}
+
+.tbody {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
