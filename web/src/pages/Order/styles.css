@@ -69,9 +69,13 @@
 }
 
 .thead-tr th {
-  padding-inline: 2rem;
+  padding-inline: 1.8rem;
   width: 20%;
   text-align: center;
+}
+
+.thead-tr th:nth-child(7) {
+  width: 35%;
 }
 
 .tbody {

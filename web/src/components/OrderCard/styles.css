@@ -28,7 +28,8 @@
   border-radius: 1.5rem;
   color: #727d94;
   cursor: not-allowed;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.4rem;
   font-weight: 700;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+  width: 10rem;
 }
