@@ -29,6 +29,7 @@ Back-end:
 
 ```
 git clone git@github.com:Vitosoaresp/invoices.git
+cd invoices/
 ```
 
 ## Instalando Dependências
@@ -47,11 +48,14 @@ npm install
 
 * Para rodar o back-end:
 
+> Configure as variaveis de ambiente e rode a sql do banco de dados que esta no arquivo ---> server/database.sql
+
   ```
-  cd server
-  npm run db:reset
-  npm run dev
+    cd server
+    cp .env.example .env
+    npm run dev
   ```
+
 * Para rodar o front-end:
 
   ```
