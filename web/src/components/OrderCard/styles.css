@@ -1,0 +1,34 @@
+.tbody-tr {
+  background-color: #ffffff;
+  border: 1px solid #dfe2eb;
+  padding: 0.9rem;
+}
+
+.tbody-tr .tbody-th {
+  color: #4d5566;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  width: 10%;
+}
+
+.th-value, .th-status {
+  color: #00ad8c !important;
+}
+
+.th-status {
+  font-size: 0.6rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.btn-dataProvider {
+  background-color: #ffffff;
+  border: 1px solid #CAD3FF;
+  border-radius: 1.5rem;
+  color: #727d94;
+  cursor: not-allowed;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  font-size: 0.6rem;
+}
