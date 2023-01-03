@@ -29,6 +29,7 @@ Back-end:
 
 ```
 git clone git@github.com:Vitosoaresp/invoices.git
+cd invoices/
 ```
 
 ## Instalando Dependências
