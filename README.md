@@ -47,11 +47,15 @@ npm install
 
 * Para rodar o back-end:
 
+> Configure as variaveis de ambiente
+
   ```
-  cd server
-  npm run db:reset
-  npm run dev
+    cd server
+    cp .env.example .env
+    npm run db:reset
+    npm run dev
   ```
+
 * Para rodar o front-end:
 
   ```
