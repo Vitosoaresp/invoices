@@ -1,8 +1,10 @@
-# Notas Fiscais
+# Notas Fiscais                                                                                                                  
+
+![Captura de tela de 2023-01-03 17-21-39](https://user-images.githubusercontent.com/23152592/210440394-ca4d8c3f-32dd-45a1-ac50-553bff1990bd.png)
 
 # Contexto
-Este projeto trata-se de uma aplicação web full stack, onde é possivel ver as notas fiscais criadas no banco de dados.
-
+  Este projeto trata-se de uma aplicação web full stack, onde é possivel ver as notas fiscais criadas no banco de dados.
+                        
 ## Técnologias usadas
 
 Front-end:
@@ -16,12 +18,12 @@ Back-end:
 
 > Backend
 ```bash
-cd api/ 
+cd server/ 
 npm install
 ``` 
 > Frontend
 ```bash
-cd src/
+cd web/
 npm install
 ``` 
 ## Executando aplicação
@@ -29,18 +31,23 @@ npm install
 * Para rodar o back-end:
 
   ```
-  cd api/ && npm start
+  cd server/ && npm run dev
   ```
 * Para rodar o front-end:
 
   ```
-    cd src/ && npm start
+    cd web/ && npm run dev
   ```
 
 ## Executando Testes
 
-* Para rodar todos os testes:
+* Para rodar os testes do back-end:
 
   ```
-    npm test
+    cd server/ && npm test
+  ```
+* Para rodar os testes do front-end:
+
+  ```
+    cd web/ && npm test
   ```
