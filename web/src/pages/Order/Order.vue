@@ -32,12 +32,12 @@ fetch('http://localhost:3001/orders')
         <table v-else-if="data" class="table">
           <thead>
             <tr class="thead-tr">
-              <th>NOTA FISCAL</th>
-              <th>SACADO</th>
-              <th>CEDENTE</th>
-              <th>EMISSÃO</th>
-              <th>VALOR</th>
-              <th>STATUS</th>
+              <th data-testid="test-id-thead-nota-fiscal">NOTA FISCAL</th>
+              <th data-testid="test-id-thead-buyer">SACADO</th>
+              <th data-testid="test-id-thead-provider">CEDENTE</th>
+              <th data-testid="test-id-thead-created">EMISSÃO</th>
+              <th data-testid="test-id-thead-value">VALOR</th>
+              <th data-testid="test-id-thead-status">STATUS</th>
               <th></th>
             </tr>
           </thead>
