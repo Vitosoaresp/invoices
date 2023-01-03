@@ -48,12 +48,11 @@ npm install
 
 * Para rodar o back-end:
 
-> Configure as variaveis de ambiente
+> Configure as variaveis de ambiente e rode o sql do banco de dados que esta no arquivo ---> server/database.sql
 
   ```
     cd server
     cp .env.example .env
-    npm run db:reset
     npm run dev
   ```
 
